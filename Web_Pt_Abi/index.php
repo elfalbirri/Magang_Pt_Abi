@@ -8,19 +8,23 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>PT ABI</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color : white;">
   <div class="container">
-    <a class="navbar-brand" href="#">Global Sanitary</a>
+    <a class="navbar-brand" href="index.php">Global Sanitary</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+          <a class="nav-link active" aria-current="page" href="index.php">Beranda</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Tentang Kami</a>
@@ -32,6 +36,42 @@
     </div>
   </div>
 </nav>
+<!-- Akhir Navbar -->
+
+<!-- Jumbotron -->
+
+    <section class="jumbotron pt-5 pb-5 text-center" style="height : 500px; ">
+          <h1 class="display-4 fw-bold">Aromateraphy+ <br/>
+          Sebarkan aroma perlindungan</h1>
+          <div class="row">
+    <div class="col-md-6 offset-md-3 pt-4">
+            <p>Aromateraphy+ merupakan inovasi produk global sanitary terbaru yang tidak hanya memberikan aroma relaksasi yang menyegarkan dari berbagai varian aroma yang unik, tetapi  juga memberikan manfaat yang sama seperti disinfektan yaitu perlindungan dari penyebaran virus covid 19. </p>
+</div>
+          </div>
+    </section>
+
+<!-- Akhir Jumbotron -->
+
+        <div class="row align-items-center">
+            <div class="col">
+              <img src="img/1.png" width="203px">
+            </div>
+            <div class="col">
+            <img src="img/2.png" width="203px">
+            </div>
+            <div class="col">
+            <img src="img/3.png" width="203px">
+            </div>
+            <div class="col">
+            <img src="img/4.png" width="203px">
+            </div>
+            <div class="col">
+            <img src="img/5.png" width="203px">
+            </div>
+            <div class="col">
+            <img src="img/6.png" width="203px">
+            </div>
+          </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
