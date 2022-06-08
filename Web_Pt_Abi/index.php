@@ -13,7 +13,7 @@
 
     <title>PT ABI</title>
   </head>
-  <body>
+  <body style="background-color : #F9F2EA; ">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color : white;">
   <div class="container">
@@ -39,9 +39,8 @@
 <!-- Akhir Navbar -->
 
 <!-- Jumbotron -->
-
     <section class="jumbotron pt-5 pb-5 text-center" style="height : 500px; ">
-          <h1 class="display-4 fw-bold">Aromateraphy+ <br/>
+          <h1 class="display-4 fw-bold pt-5">Aromateraphy+ <br/>
           Sebarkan aroma perlindungan</h1>
           <div class="row">
     <div class="col-md-6 offset-md-3 pt-4">
@@ -52,7 +51,7 @@
 
 <!-- Akhir Jumbotron -->
 
-        <div class="row align-items-center">
+        <div class="row align-items-center pb-5">
             <div class="col">
               <img src="img/1.png" width="203px">
             </div>
@@ -71,7 +70,76 @@
             <div class="col">
             <img src="img/6.png" width="203px">
             </div>
+        </div>
+
+        <div class="row justify-content-evenly pt-5 pb-5">
+           <div class="col-4">
+             <a href="paketa.php">
+              <img src="img/paketa.jpeg" width="500px" title="Paket A" alt="Gambar Paket A">
+             </a>
+           </div>
+           <div class="col-4">
+             <a href="#">
+              <img src="img/paketb.jpeg" width="500px" title="Paket B" alt="Gambar Paket B">
+             </a>
+           </div>
+        </div>
+
+        <img src="img/remote.png" width="100%" title="Detail Remote" alt="Gambar Detail Remote">
+
+        <div class="container">
+        <div class="tutorial pt-5 text-center">
+          <h1 style="color : #AE5D4A"; >Tutorial Pemakaian</h1>
+
+          <div class="row align-items-top pt-5">
+            <div class="col-3">
+            <img src="img/tutorial/1.jpeg" width="200" alt="Gambar Tutorial Step 1" >
+            <p class="pt-3">Sambungkan kabel cas dengan air humidifier diffuser</p>
+            </div>
+            <div class="col-3">
+            <img src="img/tutorial/2.jpeg" width="200" alt="Gambar Tutorial Step 2">
+            <p class="pt-3">Tuangkan cairan aromateraphy+ ke dalam tabung difusser. Isi cairan sebanyak yang diinginkan</p>
+            </div>
+            <div class="col-3">
+            <img src="img/tutorial/3.jpeg" width="200" alt="Gambar Tutorial Step 3">
+            <p class="pt-3">Pastikan tabung diffuser tertutup dengan benar</p>
+            </div>
           </div>
+
+          <div class="row align-items-top pt-5">
+            <div class="col-3">
+            <img src="img/tutorial/4.jpeg" width="200" alt="Gambar Tutorial Step 4" >
+            <p class="pt-3">Sambungkan kabel cas dengan stop kontak</p>
+            </div>
+            <div class="col-3">
+            <img src="img/tutorial/5.jpeg" width="200" alt="Gambar Tutorial Step 5">
+            <p class="pt-3">Nyalakan diffuser menggunakan remote atau tombol di bagian belakang diffuser</p>
+            </div>
+            <div class="col-3">
+            <img src="img/tutorial/6.jpeg" width="200" alt="Gambar Tutorial Step 6">
+            <p class="pt-3">Jika perlu, nyalakan lampu pada diffuser, tekan tombol “light” pada remote</p>
+            </div>
+          </div>
+
+          <div class="row align-items-top pt-5">
+            <div class="col-3">
+            <img src="img/tutorial/7.jpeg" width="200" alt="Gambar Tutorial Step 7" >
+            <p class="pt-3">Atur lama diffuser sesuai keinginan, tekan tombol “timer” pada remote</p>
+            </div>
+            <div class="col-3">
+            <img src="img/tutorial/8.jpeg" width="200" alt="Gambar Tutorial Step 8">
+            <p class="pt-3">Diffuser siap digunakan</p>
+            </div>
+            <div class="col-3">
+            <img src="img/tutorial/9.jpeg" width="200" alt="Gambar Tutorial Step 9">
+            <p class="pt-3">Tekan tombol “On/Off” pada remote untuk mematikan diffuser</p>
+            </div>
+          </div>
+</div>
+</div>
+
+          <img src="img/petunjuk.png" width="100%" title="Petunjuk perawatan" alt="Gambar Petunjuk Perawatan">
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
